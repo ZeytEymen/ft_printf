@@ -6,7 +6,7 @@
 /*   By: ekarabud <ekarabud@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/10 19:20:37 by ekarabud          #+#    #+#             */
-/*   Updated: 2023/12/10 19:29:53 by ekarabud         ###   ########.fr       */
+/*   Updated: 2023/12/11 16:29:13 by ekarabud         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,4 +21,6 @@ int	ft_putstr(char *s);
 int	ft_print_ptr(unsigned long n, int firstCall, int number);
 int	ft_print_hex(unsigned long n, char ch, int number);
 int	ft_print_unsigned(unsigned int n, int number);
+int	ft_printf(const char *format, ...);
+
 #endif
